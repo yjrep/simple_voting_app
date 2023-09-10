@@ -1,0 +1,38 @@
+{
+  "name": "simple-voting-app",
+  "version": "0.1.0",
+  "author": "Yungjae Kim",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "api": "node server/app.js",
+    "lint": "vue-cli-service lint --fix & eslint --fix server",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "better-sqlite3": "^8.6.0",
+    "core-js": "^3.32.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.15",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
